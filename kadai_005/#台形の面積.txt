@@ -1,2 +1,6 @@
 #台形の面積
-print((10+20)*5/2)
+jyouhenn = 10
+kahenn=20
+takasa=5
+mennseki = (jyouhenn + kahenn)*takasa/2
+print(f"面積は{mennseki}㎠")
