@@ -1,0 +1,21 @@
+class Human:
+    # コンストラクタを定義する
+    def __init__(self):
+        self.name = ""
+        self.age = ""
+
+    # メソッドを定義する
+    def set_name(self, name, age):
+        self.name = name
+        self.age = age
+
+    def printinfo(self):
+        print(self.name)
+        print(self.age)
+
+# インスタンス化する
+samurai = Human()
+
+# メソッドにアクセスして実行する
+samurai.set_name("侍太郎",36)
+samurai.printinfo()
